@@ -52,11 +52,19 @@ namespace MvcSample.Controllers
                 return BadRequest(ModelState); // Retorna un 400 si el modelo es inválido
             }
 
+            // Verificar si ya existe un producto con el mismo ID
+            var productoExistente = _service.GetProductoExistences(productoDto.Id);
+            if (productoExistente != null)
+            {
+                return Conflict("Ya existe un producto con este ID."); // Retorna un 409 si el producto ya existe
+            }
+
             var producto = _mapper.Map<Producto>(productoDto);
             _service.AddProductoExistences(producto);
 
             return CreatedAtAction(nameof(GetProducto), new { id = producto.Id }, productoDto); // Retorna 201 Created
         }
+
 
         // PUT: api/productos/{id}
         [HttpPut("{id}")]

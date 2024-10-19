@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
@@ -32,8 +33,8 @@ namespace Infrastructure.Repositories
                 Console.WriteLine("Estamos creando" + producto.Id);
                 Beguin();
                 context.Productos.Add(producto);
+                context.SaveChanges(); // Guardar antes de hacer commit
                 Comit();
-                Save();
             }
             catch (Exception ex)
             {
@@ -41,6 +42,7 @@ namespace Infrastructure.Repositories
                 throw ex;
             }
         }
+
 
         public void Delete(Guid id)
         {
@@ -48,44 +50,46 @@ namespace Infrastructure.Repositories
             {
                 Beguin();
                 var producto = context.Productos.Find(id);
-                context.Productos.Remove(producto);
-                Comit();
-                Save();
+                if (producto != null)
+                {
+                    context.Productos.Remove(producto);
+                    context.SaveChanges(); // Guardar antes de hacer commit
+                    Comit();
+                }
+                else
+                {
+                    throw new InvalidOperationException("El producto no existe.");
+                }
             }
             catch (Exception ex)
             {
                 RollBack();
                 throw ex;
             }
-
         }
+
 
         public void Update(Producto producto)
         {
             try
             {
                 Beguin();
-
-                // Verificar si el producto ya existe en el contexto
-                var existingEntity = context.Productos.Find(producto.Id);
-                if (existingEntity != null)
+                var existingProducto = context.Productos.Find(producto.Id);
+                if (existingProducto != null)
                 {
-                    Console.WriteLine("Estamos actualizando" + producto.Id);
-                    // Actualizar el estado del objeto existente
-                    context.Entry(existingEntity).CurrentValues.SetValues(producto);
-                    // No necesitas llamar a context.Productos.Update(producto); ya que estamos actualizando el existente
+                    context.Entry(existingProducto).CurrentValues.SetValues(producto);
+                    context.SaveChanges(); // Guardar los cambios
+                    Comit(); // Confirmar la transacción
                 }
                 else
                 {
                     throw new InvalidOperationException("El producto no existe.");
                 }
-
-                Comit(); // Asegúrate de que este método realmente está guardando cambios
             }
             catch (Exception ex)
             {
-                RollBack();
-                throw ex; // Puedes considerar lanzar una excepción más específica
+                RollBack(); // Revertir en caso de error
+                throw ex;
             }
         }
 

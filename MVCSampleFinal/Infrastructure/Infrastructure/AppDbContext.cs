@@ -15,7 +15,6 @@ namespace Infrastructure
         }
         public DbSet<Milk> Milks { get; set; }
         public DbSet<Cow> Cows { get; set; }
-
         public DbSet<Producto> Productos { get; set; }
     }
 
