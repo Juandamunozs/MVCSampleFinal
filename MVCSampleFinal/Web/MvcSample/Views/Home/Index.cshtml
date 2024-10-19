@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Página de Productos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido a la Gestión de Productos</h1>
+
+    <!-- Enlace para listar productos -->
+    <a asp-controller="Productos" asp-action="Index">
+        <i class="material-icons edit-icon">mode_edit</i> Ver Productos
+    </a>
+
+    <!-- Formulario para agregar o editar un producto -->
+    <h2 id="form-title">Agregar Producto</h2>
+    <form id="add-producto-form">
+        <input type="text" id="nombre" placeholder="Nombre del Producto" required />
+        <input type="number" id="precio" placeholder="Precio del Producto" required />
+        <button type="submit" id="submit-button">Agregar Producto</button>
+    </form>
+
+    <p>Aprende más sobre <a href="https://learn.microsoft.com/aspnet/core">construcción de aplicaciones web con ASP.NET Core</a>.</p>
+
+    <div id="productos-lista"></div> <!-- Aquí se mostrarán los productos -->
+
+</div>
+
+<script>
+    // Función para cargar productos
+    async function cargarProductos() {
+        const response = await fetch('/api/productos');
+        if (response.ok) {
+            const productos = await response.json();
+            const listaDiv = document.getElementById('productos-lista');
+            listaDiv.innerHTML = '<h3>Lista de Productos:</h3>';
+            productos.forEach(producto => {
+                listaDiv.innerHTML += `
+                            <div>
+                                <p>${producto.nombre} - $${producto.precio} - ${producto.stock}</p>
+                                <button onclick="editarProducto('${producto.id}', '${producto.nombre}', ${producto.precio})">Editar</button>
+                                <button onclick="eliminarProducto('${producto.id}')">Eliminar</button>
+                            </div>`;
+            });
+        } else {
+            alert('Error al cargar los productos');
+        }
+    }
+
+    // Función para manejar la edición de un producto
+    function editarProducto(id, nombre, precio) {
+        document.getElementById('nombre').value = nombre;
+        document.getElementById('precio').value = precio;
+        document.getElementById('form-title').innerText = 'Actualizar Producto'; // Cambia el título del formulario
+        document.getElementById('submit-button').innerText = 'Actualizar Producto'; // Cambia el texto del botón
+        document.getElementById('add-producto-form').onsubmit = async function(e) {
+            e.preventDefault(); // Evita el comportamiento por defecto del formulario
+
+            // Realiza una petición PUT para actualizar el producto
+            const response = await fetch(`/api/productos/${id}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id: id, nombre: nombre, precio: precio }) // Asegúrate de que los nombres de las propiedades coincidan con el modelo
+            });
+
+            if (response.ok) {
+                alert('Producto actualizado con éxito');
+                // Limpiar el formulario
+                document.getElementById('add-producto-form').reset();
+                document.getElementById('form-title').innerText = 'Agregar Producto'; // Restablece el título
+                document.getElementById('submit-button').innerText = 'Agregar Producto'; // Restablece el texto del botón
+                // Cargar la lista de productos nuevamente
+                cargarProductos();
+            } else {
+                alert('Error al actualizar el producto');
+            }
+        };
+    }
+
+    // Función para eliminar un producto
+    async function eliminarProducto(id) {
+        const response = await fetch(`/api/productos/${id}`, {
+            method: 'DELETE',
+        });
+
+        if (response.ok) {
+            alert('Producto eliminado con éxito');
+            // Cargar la lista de productos nuevamente
+            cargarProductos();
+        } else {
+            alert('Error al eliminar el producto');
+        }
+    }
+
+    // Manejar el envío del formulario para agregar un nuevo producto
+    document.getElementById('add-producto-form').addEventListener('submit', async function(e) {
+        e.preventDefault(); // Evita el comportamiento por defecto del formulario
+
+        const nombre = document.getElementById('nombre').value;
+        const precio = document.getElementById('precio').value;
+
+        // Realiza una petición POST para agregar el nuevo producto
+        const response = await fetch('/api/productos', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ nombre: nombre, precio: precio }) // Asegúrate de que los nombres de las propiedades coincidan con el modelo
+        });
+
+        if (response.ok) {
+            alert('Producto agregado con éxito');
+            // Limpiar el formulario
+            document.getElementById('add-producto-form').reset();
+            // Cargar la lista de productos nuevamente
+            cargarProductos();
+        } else {
+            alert('Error al agregar el producto');
+        }
+    });
+
+    // Cargar productos al inicio
+    window.onload = cargarProductos;
+</script>

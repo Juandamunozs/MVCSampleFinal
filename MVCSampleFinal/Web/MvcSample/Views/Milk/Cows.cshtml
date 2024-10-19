@@ -1,0 +1,19 @@
+﻿@using MvcSample.Models.MilkModels;
+@{
+    ViewData["Title"] = "Página de Productos";
+}
+@model ProductosModel; // Cambia el modelo a uno que represente productos
+
+<div class="text-center">
+    <h1 class="display-4">Productos</h1>
+    @foreach (var producto in Model.Productos) // Itera sobre la lista de productos
+    {
+        <p><strong>Nombre:</strong> @producto.Nombre</p> <!-- Cambia a la propiedad que contenga el nombre del producto -->
+        <p><strong>Precio:</strong> @producto.Precio.ToString("C")</p> <!-- Muestra el precio del producto -->
+        <p><strong>ID:</strong> @producto.Id</p> <!-- Muestra el ID del producto -->
+        <a asp-controller="ProductosApi" asp-action="GetProductoById" asp-route-id="@producto.Id">Ver Detalles</a> <!-- Enlace a los detalles del producto -->
+        <br />
+    }
+    <p>Aprende más sobre <a href="https://learn.microsoft.com/aspnet/core">construcción de aplicaciones web con ASP.NET Core</a>.</p>
+</div>
+

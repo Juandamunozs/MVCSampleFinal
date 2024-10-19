@@ -1,0 +1,455 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2070EAED-8793-4790-AA35-B5B37C3AA180}|..\\..\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\infrastructure\\infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2070EAED-8793-4790-AA35-B5B37C3AA180}|..\\..\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\infrastructure\\infrastructure\\repositories\\imilkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2070EAED-8793-4790-AA35-B5B37C3AA180}|..\\..\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\infrastructure\\infrastructure\\repositories\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\milk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\milk\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2070EAED-8793-4790-AA35-B5B37C3AA180}|..\\..\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\infrastructure\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C032BDD3-792E-4EE5-80B7-811F520FBA13}|..\\..\\Services\\Services\\Services.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\services\\services\\milkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C032BDD3-792E-4EE5-80B7-811F520FBA13}|..\\..\\Services\\Services\\Services.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\services\\services\\imilkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\milk\\cows.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\milk\\cows.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\models\\milkmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:models\\milkmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\models\\milkmodels\\milkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:models\\milkmodels\\milkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\models\\milkmodels\\cowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:models\\milkmodels\\cowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|c:\\users\\juand\\onedrive\\desktop\\mvcsamplefinal\\mvcsamplefinal\\web\\mvcsample\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A82BDE7-4194-4C20-B168-D6BA8C241F53}|MvcSample.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:18:04.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMilkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\IMilkRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\IMilkRepository.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\IMilkRepository.cs",
+              "RelativeToolTip": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\IMilkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:23:15.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\Repositories\\IProductoRepository.cs",
+              "RelativeToolTip": "..\\..\\Infrastructure\\Infrastructure\\Repositories\\IProductoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:23:14.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MilkService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Services\\Services\\MilkService.cs",
+              "RelativeDocumentMoniker": "..\\..\\Services\\Services\\MilkService.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Services\\Services\\MilkService.cs",
+              "RelativeToolTip": "..\\..\\Services\\Services\\MilkService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vw4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:22:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMilkService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Services\\Services\\IMilkService.cs",
+              "RelativeDocumentMoniker": "..\\..\\Services\\Services\\IMilkService.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Services\\Services\\IMilkService.cs",
+              "RelativeToolTip": "..\\..\\Services\\Services\\IMilkService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:22:57.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Milk\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Milk\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Milk\\Index.cshtml",
+              "RelativeToolTip": "Views\\Milk\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:29:48.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:30:48.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Infrastructure\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Infrastructure\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\Infrastructure\\Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:26:05.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:41:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:35:21.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductoModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\ProductoModel.cs",
+              "RelativeDocumentMoniker": "Models\\MilkModels\\ProductoModel.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\ProductoModel.cs",
+              "RelativeToolTip": "Models\\MilkModels\\ProductoModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:47:02.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cows.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Milk\\Cows.cshtml",
+              "RelativeDocumentMoniker": "Views\\Milk\\Cows.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Milk\\Cows.cshtml",
+              "RelativeToolTip": "Views\\Milk\\Cows.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:29:49.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:28:52.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:59:34.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:48:41.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MilkController.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\MilkController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MilkController.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\MilkController.cs",
+              "RelativeToolTip": "Controllers\\MilkController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:36:25.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CowModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\CowModel.cs",
+              "RelativeDocumentMoniker": "Models\\MilkModels\\CowModel.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\CowModel.cs",
+              "RelativeToolTip": "Models\\MilkModels\\CowModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:48:48.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MilkModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\MilkModel.cs",
+              "RelativeDocumentMoniker": "Models\\MilkModels\\MilkModel.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Models\\MilkModels\\MilkModel.cs",
+              "RelativeToolTip": "Models\\MilkModels\\MilkModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:48:55.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:30:46.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:30:44.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:43:50.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:34:18.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:32:04.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:44:12.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\juand\\OneDrive\\Desktop\\MVCSampleFinal\\MVCSampleFinal\\Web\\MvcSample\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T14:32:07.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

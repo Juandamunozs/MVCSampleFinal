@@ -1,0 +1,38 @@
+﻿@model IList<MvcSample.Models.Dto.ProductoDto> 
+
+<h1>Lista de Productos</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var producto in Model)
+            {
+                <tr>
+                    <td>@producto.Nombre</td>
+                    <td>@producto.Precio</td>
+                    <td>@producto.Stock</td>
+                    <td>
+                        <a asp-controller="Productos" asp-action="Details" asp-route-id="@producto.Id">Ver</a>
+                        <a asp-controller="Productos" asp-action="Edit" asp-route-id="@producto.Id">Editar</a>
+                        <a asp-controller="Productos" asp-action="Delete" asp-route-id="@producto.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No hay productos disponibles.</td>
+            </tr>
+        }
+    </tbody>
+</table>
